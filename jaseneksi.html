@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EPO</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+      <a class="navbar-brand" href="index.html">EPO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><span class="sr-only">Etusivu</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="epo.html">Osakunta</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="jaseneksi.html">Jäseneksi</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+        <h1>Jäseneksi</h1>
+
+        <p>Täytä alla oleva liittymiskaavake liittyäksesi EPO:n jäseneksi. Kaavakkeen lähettämisen jälkeen maksa jäsenmaksu. Huomioithan, että hyväksymme uudet hakemukset hallituksen kokouksessa, joita järjestetään noin kuukauden välein. Sinut voidaan hyväksyä jäseneksi, kun jäsenhakemuksesi on saapunut ja jäsenmaksusi näkyy tilillä kokouspäivänä. Tästä johtuen hyväksymisessä voi ilmetä viivettä. Seuraa sähköpostiasi, olemme yhteydessä sinuun heti hyväksymisen jälkeen!</p>
+
+        <p>Ainaisjäsenmaksu 10€ maksetaan Oulun etelä- ja keskipohjalaisen osakunnan tilille FI57 4744 3020 0320 55. Viestiosaan tulee laittaa nimi, kotikunta, koulutusohjelma, tiedekunta ja aloitusvuosi.</p>
+
+        <h1>Jäsenlomake</h1>
+
+        <form>
+          <div class="form-group">
+              <label for="inputFirstName">Etunimi</label>
+              <input type="text" class="form-control" id="inputFirstName" placeholder="Etunimi">
+          </div>
+          <div class="form-group">
+              <label for="inputFamilyName">Sukunimi</label>
+              <input type="text" class="form-control" id="inputFamilyName" placeholder="Sukunimi">
+          </div>
+            <div class="form-group">
+              <label for="inputAddress">Lähiosoite</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Lähiosoite">
+          </div>
+
+            <div class="form-group">
+              <label for="inputPostCodeAndPlace">Postinumero ja postitoimipaikka</label>
+              <input type="text" class="form-control" id="inputPostCodeAndPlace" placeholder="Postinumero ja postitoimipaikka">
+          </div>
+
+            <div class="form-group">
+              <label for="inputHomePlace">Kotikunta</label>
+              <input type="text" class="form-control" id="inputHomePlace" placeholder="Kotikunta">
+          </div>
+
+          <div class="form-group">
+            <label for="inputEmail">Sähköposti</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Sähköposti">
+          </div>
+
+            <div class="form-group">
+              <label for="inputSchool">Tiedekunta/koulutusohjelma/aloitusvuosi</label>
+              <input type="text" class="form-control" id="inputSchool" placeholder="Tiedekunta/koulutusohjelma/aloitusvuosi">
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="checkEmailList">
+            <label class="form-check-label" for="checkEmailList">Haluan liittyä sähköpostilistalle</label>
+          </div>
+            <br>
+          <button type="submit" class="btn btn-primary">Lähetä</button>
+        </form>
+        <br>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5 text-center">
+                    <a href="https://www.facebook.com/groups/oulunepo/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/oulunepo/" class="fa fa-instagram"></a>
+                </div>
+            </div>
+            </hr>
+            <div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
+					<p>Yhteystiedot:<br>
+Oulun Etelä- ja Keskipohjalainen Osakunta ry<br>
+PL 8000<br>
+90014 OULUN YLIOPISTO<br>
+epo-hallitus (at) lists (piste) oulu (piste) fi</p>
+
+				</div>
+			</div>
+        </div>
+    </footer>
+</body>
+</html>
