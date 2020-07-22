@@ -1,0 +1,9 @@
+Things to be considered
+
+Board members page, so much white on cards and on page
+    - Background image? Squeezing?
+
+Consistently boring font types
+    - Bold caps headers everywhere?
+
+Order of footer, first header, then addresses, then some links?
