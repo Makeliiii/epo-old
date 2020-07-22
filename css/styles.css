@@ -50,3 +50,23 @@ footer{
 h1,h2,h3,h4{
     text-align: center;
 }
+
+/*Custom navbar coloring*/
+.navbar-epo {
+    background-color: rgb(188, 22, 22);
+}
+
+.navbar-epo .navbar-brand,
+.navbar-epo .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-epo .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-epo .nav-item.active .nav-link,
+.navbar-epo .nav-item:hover .nav-link,
+.navbar-epo .navbar-toggler{
+    color: #ffffff;
+}
