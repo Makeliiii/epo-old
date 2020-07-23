@@ -13,6 +13,7 @@ Footer icons, more round shape for some icons?
 
 Button/link coloring to red/black?
 
-TODO: what is that html lang en? mistake?
-
 How switch to navbar hilight? Just normall call variable?
+
+
+Mysterious gap top margin on favicons when screen width enough
