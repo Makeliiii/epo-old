@@ -13,7 +13,4 @@ Footer icons, more round shape for some icons?
 
 Button/link coloring to red/black?
 
-How switch to navbar hilight? Just normall call variable?
-
-
 Mysterious gap top margin on favicons when screen width enough
