@@ -15,3 +15,5 @@ Button/link coloring to red/black?
 Form for badge invoices
 
 TODO: what is that html lang en? mistake?
+
+How switch to navbar hilight? Just normall call variable?
