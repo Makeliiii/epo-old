@@ -2,6 +2,7 @@ Things to be considered
 
 Board members page, so much white on cards and on page
     - Background image? Squeezing?
+    - member images?
 
 Consistently boring font types
     - Bold caps headers everywhere?
@@ -11,8 +12,6 @@ Order of footer, first header, then addresses, then some links?
 Footer icons, more round shape for some icons?
 
 Button/link coloring to red/black?
-
-Form for badge invoices
 
 TODO: what is that html lang en? mistake?
 

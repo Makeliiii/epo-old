@@ -12,6 +12,9 @@ def main():
     epo_template = templateEnv.get_template("epo_template.html")
     epo_template.stream().dump("epo.html")
 
+    jaseneksi_template = templateEnv.get_template("jaseneksi_template.html")
+    jaseneksi_template.stream().dump("jaseneksi.html")
+
 
 if __name__ == '__main__':
     main()
