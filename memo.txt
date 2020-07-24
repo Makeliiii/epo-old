@@ -16,3 +16,5 @@ Button/link coloring to red/black?
 Mysterious gap top margin on favicons when screen width enough
 
 Navbar futile first link?
+
+Link page gallery link

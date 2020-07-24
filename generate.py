@@ -16,7 +16,7 @@ def main():
     jaseneksi_template.stream(jaseneksi_active=" active").dump("jaseneksi.html")
 
     linkkeja_template = templateEnv.get_template("linkkeja_template.html")
-    linkkeja_template.stream(jaseneksi_active=" active").dump("linkkeja.html")
+    linkkeja_template.stream(linkkeja_active=" active").dump("linkkeja.html")
 
 
 if __name__ == '__main__':
