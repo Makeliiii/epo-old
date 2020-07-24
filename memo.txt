@@ -14,3 +14,5 @@ Footer icons, more round shape for some icons?
 Button/link coloring to red/black?
 
 Mysterious gap top margin on favicons when screen width enough
+
+Navbar futile first link?
