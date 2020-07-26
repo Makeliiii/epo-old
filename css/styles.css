@@ -81,3 +81,11 @@ h1, h2{
 .navbar-epo .navbar-toggler{
     color: #ffffff;
 }
+
+/*Custom link coloring*/
+.epo-link-custom-color {
+  color: rgb(188, 22, 22); !important;
+}
+.epo-link-custom-color:hover, .epo-link-custom-color:active {
+  color: black !important;
+}

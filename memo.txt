@@ -11,10 +11,14 @@ Order of footer, first header, then addresses, then some links?
 
 Footer icons, more round shape for some icons?
 
-Button/link coloring to red/black?
-
 Mysterious gap top margin on favicons when screen width enough
 
 Navbar futile first link?
 
 Link page gallery link
+
+Blue buttons dont fit to this theme very well, gray buttons? Red? Black?
+
+Galleria linkki, haalalimerkki tilaus linkki
+
+Rethinking names on board members etc?
