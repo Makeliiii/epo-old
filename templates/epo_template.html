@@ -20,7 +20,7 @@
         <p class="text-justify">2010-luku tarjosi osakunnalle niin hyviä kuin vähän hiljaisempiakin vuosia, mutta osakunnan toiminta jatkui kuitenkin menneellä vuosikymmenellä yleisesti varsin aktiivisena ja hyvänä. EPO tarjosi jäsenistölleen mielekästä tekemistä ja yhteisöllistä osallistumista. Lisäksi osakunta rekrytoi onnistuneesti uusia ja aktiivisia jäseniä mukaan osakunnan toimintaan, minkä seurauksena Oulun Etelä- ja Keskipohjalainen osakunta on vuonna 2020 edelleen toiminnassa ja voi hyvin.</p>
 
 		<h1>HALLITUS</h1>
-
+<!--
         <p class="personTitle">Puheenjohtaja</p>
         <p class="personName">Timo Keisala</p>
 
@@ -41,6 +41,18 @@
 
 		<p class="personTitle">Hallituksen jäsen</p>
 		<p class="personName">Bence Berki</p>
+-->
+        <div class="card-columns">
+            {%- for item in board_members -%}
+                <div class="card">
+                  <img class="card-img-top" src="img/placeholder_600x600.png">
+                  <div class="card-body">
+                    <h5 class="card-title">{{ item.title }}</h5>
+                    <p class="card-text">{{ item.name }}</p>
+                  </div>
+                </div>
+            {%- endfor -%}
+        </div>
 
         <h1>TOIMIHENKILÖT</h1>
 

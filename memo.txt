@@ -1,9 +1,5 @@
 Things to be considered
 
-Board members page, so much white on cards and on page
-    - Background image? Squeezing?
-    - member images?
-
 Consistently boring font types
     - Bold caps headers everywhere?
 
@@ -21,6 +17,6 @@ Blue buttons dont fit to this theme very well, gray buttons? Red? Black?
 
 Galleria linkki
 
-Rethinking names on board members etc?
-
 Set form token and stuff to make it working and test
+
+Rethink old board member naming order etc
