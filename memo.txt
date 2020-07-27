@@ -19,6 +19,8 @@ Link page gallery link
 
 Blue buttons dont fit to this theme very well, gray buttons? Red? Black?
 
-Galleria linkki, haalalimerkki tilaus linkki
+Galleria linkki
 
 Rethinking names on board members etc?
+
+Set form token and stuff to make it working and test
