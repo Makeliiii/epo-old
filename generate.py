@@ -5,17 +5,17 @@ import jinja2
 def main():
 
     board_members=[
-        {"title": "Puheenjohtaja", "name": "Timo Keisala"},
-        {"title": "Fuksikapteeni & vpj.", "name": "Aleksi Yli-Sissala"},
-        {"title": "Sihteeri", "name": "Katri Ollila"},
-        {"title": "Talousvastaava", "name": "Tuulia Ala-Nisula"},
-        {"title": "Haalarimerkkivastaava", "name": "Mikko Hakoniemi"},
-        {"title": "Homo Economicus", "name": "Erno Ahola-Olli"},
-        {"title": "Hallituksen jäsen", "name": "Bence Berki"},
+        {"title": "Puheenjohtaja", "name": "Timo Keisala", "img": "img/placeholder_600x600.png"},
+        {"title": "Fuksikapteeni & vpj.", "name": "Aleksi Yli-Sissala", "img": "img/placeholder_600x600.png"},
+        {"title": "Sihteeri", "name": "Katri Ollila", "img": "img/placeholder_600x600.png"},
+        {"title": "Talousvastaava", "name": "Tuulia Ala-Nisula", "img": "img/placeholder_600x600.png"},
+        {"title": "Haalarimerkkivastaava", "name": "Mikko Hakoniemi", "img": "img/placeholder_600x600.png"},
+        {"title": "Homo Economicus", "name": "Erno Ahola-Olli", "img": "img/placeholder_600x600.png"},
+        {"title": "Hallituksen jäsen", "name": "Bence Berki", "img": "img/placeholder_600x600.png"},
     ]
 
     clerks = [
-        {"title": "Webmaster", "name": "Jukka Pajukangas"}
+        {"title": "Webmaster", "name": "Jukka Pajukangas", "img": "img/placeholder_600x600.png"}
     ]
 
 

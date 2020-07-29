@@ -45,7 +45,7 @@
         <div class="card-columns">
             {%- for item in board_members -%}
                 <div class="card">
-                  <img class="card-img-top" src="img/placeholder_600x600.png">
+                  <img class="card-img-top" src="{{ item.img }}">
                   <div class="card-body">
                     <h5 class="card-title">{{ item.title }}</h5>
                     <p class="card-text">{{ item.name }}</p>
@@ -59,7 +59,7 @@
         <div class="card-columns">
             {%- for item in clerks -%}
                 <div class="card">
-                  <img class="card-img-top" src="img/placeholder_600x600.png">
+                  <img class="card-img-top" src="{{ item.img }}">
                   <div class="card-body">
                     <h5 class="card-title">{{ item.title }}</h5>
                     <p class="card-text">{{ item.name }}</p>
