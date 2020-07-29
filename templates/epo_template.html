@@ -56,8 +56,18 @@
 
         <h1>TOIMIHENKILÖT</h1>
 
-        <p class="personTitle">Webmaster</p>
-		<p class="personName">Jukka Pajukangas</p>
+        <div class="card-columns">
+            {%- for item in clerks -%}
+                <div class="card">
+                  <img class="card-img-top" src="img/placeholder_600x600.png">
+                  <div class="card-body">
+                    <h5 class="card-title">{{ item.title }}</h5>
+                    <p class="card-text">{{ item.name }}</p>
+                  </div>
+                </div>
+            {%- endfor -%}
+        </div>
+
         <br><br>
         <h1>VANHAT TOIMIJAT</h1>
         <br>

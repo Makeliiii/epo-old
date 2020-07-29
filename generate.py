@@ -14,6 +14,10 @@ def main():
         {"title": "Hallituksen jäsen", "name": "Bence Berki"},
     ]
 
+    clerks = [
+        {"title": "Webmaster", "name": "Jukka Pajukangas"}
+    ]
+
 
     templateLoader = jinja2.FileSystemLoader(searchpath="templates/")
     templateEnv = jinja2.Environment(loader=templateLoader)
@@ -22,7 +26,7 @@ def main():
     index_template.stream(index_active=" active").dump("index.html")
 
     epo_template = templateEnv.get_template("epo_template.html")
-    epo_template.stream(epo_active=" active", board_members=board_members).dump("epo.html")
+    epo_template.stream(epo_active=" active", board_members=board_members, clerks=clerks).dump("epo.html")
 
     jaseneksi_template = templateEnv.get_template("jaseneksi_template.html")
     jaseneksi_template.stream(jaseneksi_active=" active").dump("jaseneksi.html")
