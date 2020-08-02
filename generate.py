@@ -5,13 +5,13 @@ import jinja2
 def main():
 
     board_members=[
-        {"title": "Puheenjohtaja", "name": "Timo Keisala", "img": "img/placeholder_600x600.png"},
-        {"title": "Fuksikapteeni & vpj.", "name": "Aleksi Yli-Sissala", "img": "img/placeholder_600x600.png"},
-        {"title": "Sihteeri", "name": "Katri Ollila", "img": "img/placeholder_600x600.png"},
-        {"title": "Talousvastaava", "name": "Tuulia Ala-Nisula", "img": "img/placeholder_600x600.png"},
-        {"title": "Haalarimerkkivastaava", "name": "Mikko Hakoniemi", "img": "img/placeholder_600x600.png"},
-        {"title": "Homo Economicus", "name": "Erno Ahola-Olli", "img": "img/placeholder_600x600.png"},
-        {"title": "Hallituksen jäsen", "name": "Bence Berki", "img": "img/placeholder_600x600.png"},
+        {"title": "Puheenjohtaja", "name": "Timo Keisala", "img": "img/keisala.jpg"},
+        {"title": "Fuksikapteeni & vpj.", "name": "Aleksi Yli-Sissala", "img": "img/ylisissala.jpg"},
+        {"title": "Sihteeri", "name": "Katri Ollila", "img": "img/ollila.jpg"},
+        {"title": "Talousvastaava", "name": "Tuulia Ala-Nisula", "img": "img/alanisula.jpg"},
+        {"title": "Haalarimerkkivastaava", "name": "Mikko Hakoniemi", "img": "img/hakoniemi.jpg"},
+        {"title": "Homo Economicus", "name": "Erno Ahola-Olli", "img": "img/aholaolli.jpg"},
+        {"title": "Hallituksen jäsen", "name": "Bence Berki", "img": "img/berki.jpg"},
     ]
 
     clerks = [
