@@ -16,7 +16,7 @@ Link page gallery link
 Blue buttons dont fit to this theme very well, gray buttons? Red? Black?
 
 Galleria linkki
-
+    - old gallery still to be made?
 Set form token and stuff to make it working and test
 
 Rethink old board member naming order etc
