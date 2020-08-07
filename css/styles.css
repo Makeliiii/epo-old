@@ -50,6 +50,12 @@ body {
 footer{
     /*background-color: #fcfcfc;*/
     background-color: rgb(188, 22, 22);
+    background-image: url("../img/salmiakki2.GIF");
+    background-repeat: repeat-x;
+}
+
+.footer-top{
+    height: 140px;
 }
 
 /* Common header styles */
