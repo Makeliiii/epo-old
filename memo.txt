@@ -11,12 +11,14 @@ Mysterious gap top margin on favicons when screen width enough
 
 Navbar futile first link?
 
-Link page gallery link
-
 Blue buttons dont fit to this theme very well, gray buttons? Red? Black?
 
-Galleria linkki
-    - old gallery still to be made?
-Set form token and stuff to make it working and test
-
 Rethink old board member naming order etc
+
+Form fields still rethink...
+
+What about gdpr?
+https://tietosuoja.fi/-/tietosuojavaltuutetun-toimisto-julkaisi-tietopaketin-yhdistyksille
+This is quite clear stuff
+
+Name and homeplace are non-optional, everything else must be based to actual usage
