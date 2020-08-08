@@ -22,3 +22,9 @@ https://tietosuoja.fi/-/tietosuojavaltuutetun-toimisto-julkaisi-tietopaketin-yhd
 This is quite clear stuff
 
 Name and homeplace are non-optional, everything else must be based to actual usage
+
+compulsary fieds to lomake, ensure those
+
+thank you page must be made to be shown
+
+Hmm, eipä lähtenny formi matkaan, pitääkö olla oikea palvelin eikä vaan local... no joo, blocked tuli postille

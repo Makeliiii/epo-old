@@ -95,3 +95,9 @@ h1, h2{
 .epo-link-custom-color:hover, .epo-link-custom-color:active {
   color: black !important;
 }
+
+/* Form iframe styles*/
+iframe{
+    border: 0;
+    width: 100%;
+}
