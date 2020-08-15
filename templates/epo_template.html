@@ -20,28 +20,7 @@
         <p class="text-justify">2010-luku tarjosi osakunnalle niin hyviä kuin vähän hiljaisempiakin vuosia, mutta osakunnan toiminta jatkui kuitenkin menneellä vuosikymmenellä yleisesti varsin aktiivisena ja hyvänä. EPO tarjosi jäsenistölleen mielekästä tekemistä ja yhteisöllistä osallistumista. Lisäksi osakunta rekrytoi onnistuneesti uusia ja aktiivisia jäseniä mukaan osakunnan toimintaan, minkä seurauksena Oulun Etelä- ja Keskipohjalainen osakunta on vuonna 2020 edelleen toiminnassa ja voi hyvin.</p>
 
 		<h1>HALLITUS</h1>
-<!--
-        <p class="personTitle">Puheenjohtaja</p>
-        <p class="personName">Timo Keisala</p>
 
-		<p class="personTitle">Fuksikapteeni & vpj.</p>
-        <p class="personName">Aleksi Yli-Sissala</p>
-
-		<p class="personTitle">Sihteeri</p>
-        <p class="personName">Katri Ollila</p>
-
-		<p class="personTitle">Talousvastaava</p>
-		<p class="personName">Tuulia Ala-Nisula</p>
-
-		<p class="personTitle">Haalarimerkkivastaava</p>
-		<p class="personName">Mikko Hakoniemi</p>
-
-		<p class="personTitle">Homo Economicus</p>
-		<p class="personName">Erno Ahola-Olli</p>
-
-		<p class="personTitle">Hallituksen jäsen</p>
-		<p class="personName">Bence Berki</p>
--->
         <div class="card-columns">
             {%- for item in board_members -%}
                 <div class="card">
@@ -70,6 +49,36 @@
 
         <br><br>
         <h1>VANHAT TOIMIJAT</h1>
+
+	{%- for year in old_members -%}
+	<div class="oldOfficialsCard">
+	  <div class="card">
+		<div class="card-header">
+		  <h4 class="card-title">
+			<a class="epo-link-custom-color" data-toggle="collapse" href="#old-people-collapse-{{ year.year }}">{{ year.year }}</a>
+		  </h4>
+		</div>
+		<div id="old-people-collapse-{{ year.year }}" class="panel-collapse collapse">
+		  <div class="card-block">
+			<h1>Hallitus</h1>
+			  {%- for board_member in year.board -%}
+			  	<p class="personTitle">{{ board_member.title }}</p>
+				<p class="personName">{{ board_member.name }}</p>
+			  {%- endfor -%}
+
+			<h1>Toimihenkilöt</h1>
+
+			  {%- for clerk in year.clerks -%}
+			  	<p class="personTitle">{{ clerk.title }}</p>
+				<p class="personName">{{ clerk.name }}</p>
+			  {%- endfor -%}
+
+			  </div>
+		</div>
+	  </div>
+	</div>
+	{%- endfor -%}
+<!--
         <br>
 		<div class="oldOfficialsCard">
           <div class="card">
@@ -570,6 +579,7 @@
             </div>
           </div>
         </div>
+        -->
     <br>
     </main>
 
