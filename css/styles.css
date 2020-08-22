@@ -101,3 +101,21 @@ iframe{
     border: 0;
     width: 100%;
 }
+
+/* Custom epo button */
+.btn-epo {
+    color: white;
+    background-color: rgb(188, 22, 22);
+
+}
+
+.btn-epo:hover {
+    color: white;
+    background-color: #8B1818;
+
+}
+
+.btn-epo:focus,
+.btn-epo.focus {
+    box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
+}
