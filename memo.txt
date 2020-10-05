@@ -7,8 +7,6 @@ Order of footer, first header, then addresses, then some links?
 
 Footer icons, more round shape for some icons?
 
-Mysterious gap top margin on favicons when screen width enough
-
 Navbar futile first link?
 
 Blue buttons dont fit to this theme very well, gray buttons? Red? Black?
@@ -28,3 +26,5 @@ compulsary fieds to lomake, ensure those
 thank you page must be made to be shown
 
 Hmm, eipä lähtenny formi matkaan, pitääkö olla oikea palvelin eikä vaan local... no joo, blocked tuli postille
+
+Jokin melko simppeli ratkaisu varmaan löytyy tuohon kuvahommaan...
