@@ -107,6 +107,6 @@ iframe{
     margin-bottom: 0px;
 }
 
-#indexHeaderJumbotron .lead{
-    text-shadow: 2px 2px 0px #FFFFFF;
+#indexHeaderJumbotron p, #indexHeaderJumbotron h1{
+    text-shadow: 0px 0px 3px #FFFFFF;
 }
