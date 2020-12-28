@@ -105,6 +105,7 @@ iframe{
     background-size: cover;
     /*Eliminate appearing gap*/
     margin-bottom: 0px;
+    min-height: 50vh;
 }
 
 #indexHeaderJumbotron p, #indexHeaderJumbotron h1{
