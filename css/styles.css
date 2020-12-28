@@ -1,21 +1,7 @@
 /* Main element styles*/
-.container{
-    /*background-color: #e5e5e5;*/
-}
 
 body {
   padding-top: 3.5rem;
-}
-
-/* Hallitus and toimihenkilöt styles */
-
-/* TODO: futile now?*/
-.personName{
-    text-align: center;
-}
-.personTitle{
-    text-align: center;
-    font-weight: bold;
 }
 
 /* Footer styles */
@@ -30,26 +16,20 @@ body {
 }
 
 .fa:hover {
-    /*opacity: 0.7;*/
     background: black;
 }
 
 .fa-facebook {
-  /*background: #3B5998;
-  color: white;*/
     background: white;
   color: rgb(188, 22, 22);
 }
 
 .fa-instagram {
-  /*background: #125688;
-  color: white;*/
     background: white;
   color: rgb(188, 22, 22);
 }
 
 footer{
-    /*background-color: #fcfcfc;*/
     background-color: rgb(188, 22, 22);
     background-image: url("../img/salmiakki2.GIF");
     background-repeat: repeat-x;
@@ -67,7 +47,6 @@ h1,h2,h3,h4{
 h1, h2{
     font-weight: bold;
 }
-
 
 /*Custom navbar coloring*/
 .navbar-epo {
@@ -107,13 +86,11 @@ iframe{
 .btn-epo {
     color: white;
     background-color: rgb(188, 22, 22);
-
 }
 
 .btn-epo:hover {
     color: white;
     background-color: #8B1818;
-
 }
 
 .btn-epo:focus,
