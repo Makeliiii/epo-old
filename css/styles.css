@@ -98,12 +98,15 @@ iframe{
     box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
 }
 
-/* Header image styling */
-.masthead {
-  height: 50vh;
-  min-height: 200px;
-  background-image: url('../img/epo_landing2.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+/* Header image and text styling*/
+
+#indexHeaderJumbotron{
+    background: url('../img/epo_landing2.jpg') no-repeat center;
+    background-size: cover;
+    /*Eliminate appearing gap*/
+    margin-bottom: 0px;
+}
+
+#indexHeaderJumbotron .lead{
+    text-shadow: 2px 2px 0px #FFFFFF;
 }
