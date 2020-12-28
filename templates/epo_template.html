@@ -24,7 +24,7 @@
 
         <div class="card-columns">
             {%- for item in board_members -%}
-                <div class="card">
+                <div class="card shadow">
                   <img class="card-img-top" src="{{ item.img }}">
                   <div class="card-body">
                     <h5 class="card-title">{{ item.title }}</h5>
@@ -38,7 +38,7 @@
 
         <div class="card-columns">
             {%- for item in clerks -%}
-                <div class="card">
+                <div class="card shadow">
                   <img class="card-img-top" src="{{ item.img }}">
                   <div class="card-body">
                     <h5 class="card-title">{{ item.title }}</h5>
@@ -53,25 +53,25 @@
 
     <div class="card-columns">
 	{%- for year in old_members -%}
-	  <div class="card">
+	  <div class="card shadow-sm">
 		<div class="card-header">
 		  <h4 class="card-title">
 			<a class="epo-link-custom-color" data-toggle="collapse" href="#old-people-collapse-{{ year.year }}">{{ year.year }}</a>
 		  </h4>
 		</div>
 		<div id="old-people-collapse-{{ year.year }}" class="panel-collapse collapse">
-		  <div class="cardh-blockh">
+		  <div>
 			<h1>Hallitus</h1>
 			  {%- for board_member in year.board -%}
-			  	<p class="personTitle">{{ board_member.title }}</p>
-				<p class="personName">{{ board_member.name }}</p>
+                <p class="font-weight-bold text-center">{{ board_member.title }}</p>
+				<p class="font-weight-light text-center">{{ board_member.name }}</p>
 			  {%- endfor -%}
 
 			<h1>Toimihenkilöt</h1>
 
 			  {%- for clerk in year.clerks -%}
-			  	<p class="personTitle">{{ clerk.title }}</p>
-				<p class="personName">{{ clerk.name }}</p>
+                <p class="font-weight-bold text-center">{{ clerk.title }}</p>
+				<p class="font-weight-light text-center">{{ clerk.name }}</p>
 			  {%- endfor -%}
 
 			  </div>
