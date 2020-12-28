@@ -241,7 +241,116 @@ def main():
                 {"title": "Kuraattori", "name": "Ilkka Sillanpää"},
                 {"title": "EPO-seniori", "name": "Matti Karikallio"}
             ]
-        }
+        },
+
+        {
+            "year": 2008,
+            "board": [
+                {"title": "Puheenjohtaja", "name": "Matti Karikallio"},
+                {"title": "Sihteeri", "name": "Maarit Rantanen"},
+                {"title": "Rahastonhoitaja", "name": "Ville Akolahti"},
+                {"title": "Isäntä", "name": "Olli Kalliokoski"},
+                {"title": "Emäntä", "name": "Henna Väkiparta"},
+                {"title": "Tuotepäällikkö", "name": "Aatto Rautio"},
+                {"title": "Yrityssuhdevastaava", "name": "Marjukka Mannila"},
+                {"title": "Liikuntamestari", "name": "Juhani Honkala"},
+                {"title": "Fuxikapteeni", "name": "Jarno Asiala"},
+                {"title": "Osakuntamestari", "name": "Veli-Pekka Rämäkkö"},
+                {"title": "Varajäsen", "name": "Kirsi Kotimäki"},
+                {"title": "Varajäsen", "name": "Antti Rautio"}
+            ],
+            "clerks": [
+                {"title": "Päätoimittaja", "name": "Kirsi Kotimäki"},
+                {"title": "Pehtoori", "name": "Jarkko Halmesmäki"},
+                {"title": "Pehtoori", "name": "Jaakko Ala-Reinikka"},
+                {"title": "Pehtoori", "name": "Tuomas Lehtola"},
+                {"title": "Pikkuemäntä", "name": "Kirsi Kankaanpää"},
+                {"title": "Pikkuemäntä", "name": "Maria Lemponen"},
+                {"title": "Pikkuemäntä", "name": "Mari Pukkinen"},
+                {"title": "Pikkuemäntä", "name": "Tanja Korpela"},
+                {"title": "AMK-vastaava", "name": "Leena Yli-Korhonen"},
+                {"title": "Osakuntakamera", "name": "Timo Perälä"},
+                {"title": "EPO-seniori", "name": "Matti Karikallio"},
+                {"title": "Webmaster", "name": "Antti Rautio"}
+            ]
+        },
+
+        {
+            "year": 2007,
+            "board": [
+                {"title": "Puheenjohtaja", "name": "Matti Karikallio"},
+                {"title": "Sihteeri", "name": "Leena Yli-Korhonen"},
+                {"title": "Rahastonhoitaja", "name": "Marjukka Mannila"},
+                {"title": "Isäntä", "name": "Jaakko Ala-Reinikka"},
+                {"title": "Emäntä", "name": "Maiju Sepponen"},
+                {"title": "Tuotepäällikkö", "name": "Antti Rautio"},
+                {"title": "Liikuntamestari", "name": "Jani Hovila"},
+                {"title": "Fuxikapteeni", "name": "Mats Kronholm"},
+                {"title": "Osakuntamestari", "name": "Veli-Pekka Rämäkkö"},
+                {"title": "Yrityssuhdevastaava", "name": "Tanja Korpela"},
+                {"title": "Varajäsen", "name": "Kirsi Kotimäki"},
+                {"title": "Varajäsen", "name": "Ville Akolahti"}
+            ],
+            "clerks": [
+                {"title": "Päätoimittaja", "name": "Kirsi Kotimäki"},
+                {"title": "Pehtoori", "name": "Ville Akolahti"},
+                {"title": "Pehtoori", "name": "Juhani Honkala"},
+                {"title": "Pehtoori", "name": "Jarno Asiala"},
+                {"title": "Pikkuemäntä", "name": "Maria Lemponen"},
+                {"title": "Pikkuemäntä", "name": "Terhi Talvitie"},
+                {"title": "Osakuntakamera", "name": "Tuomas Lehtola"},
+                {"title": "Webmaster", "name": "Janne Kätevä"},
+                {"title": "AMK- ja Excuvastaava", "name": "Maarit Rantanen"},
+                {"title": "EPO-seniori", "name": "Mari-Leena Kairivaara"}
+            ]
+        },
+
+        {
+            "year": 2006,
+            "board": [
+                {"title": "Puheenjohtaja", "name": "Mari-Leena Kairivaara"},
+                {"title": "Sihteeri", "name": "Leena Yli-Korhonen"},
+                {"title": "Rahastonhoitaja", "name": "Marjukka Mannila"},
+                {"title": "Isäntä", "name": "Matti Karikallio"},
+                {"title": "Emäntä", "name": "Katri Arokallio"},
+                {"title": "Tuotevastaava & Webmaster", "name": "Antti Rautio"},
+                {"title": "Osakuntamestari", "name": "Juha Haapasaari"},
+                {"title": "Liikuntamestari", "name": "Jaakko Ala-Reinikka"},
+                {"title": "Fuxikapteeni", "name": "Maiju Sepponen"},
+                {"title": "Varajäsen", "name": "Jani Hovila"},
+                {"title": "Varajäsen", "name": "Iida-Maria Mäki-Mantila"}
+            ],
+            "clerks": [
+                {"title": "Pehtoori", "name": "Jani Hovila"},
+                {"title": "Pehtoori", "name": "Tuomas Lehtola"},
+                {"title": "Pikkuemäntä", "name": "Iida-Maria Mäki-Mantila"},
+                {"title": "AMK-vastaava", "name": "Maarit Rantanen"},
+                {"title": "Excupäällikkö", "name": "Terhi Talvitie"},
+                {"title": "Yrityssuhdevastaava", "name": "Tanja Korpela"}
+            ]
+        },
+
+        {
+            "year": 2005,
+            "board": [
+                {"title": "Puheenjohtaja", "name": "Ilkka Sillanpää"},
+                {"title": "Sihteeri", "name": "Kirsi Rantanen"},
+                {"title": "Rahastonhoitaja", "name": "Mari-Leena Kairivaara"},
+                {"title": "Isäntä", "name": "Matti Karikallio"},
+                {"title": "Emäntä", "name": "Katri Arokallio"},
+                {"title": "Seremoniamestari", "name": "Juha Haapasaari"},
+                {"title": "Excupäällikkö & Webmaster", "name": "Antti Rautio"},
+                {"title": "Yrityssuhdevastaava", "name": "Maiju Sepponen"},
+                {"title": "Fuxikapteeni", "name": "Terhi Talvitie"},
+                {"title": "Varajäsen", "name": "Jussi Eväsoja"},
+                {"title": "Varajäsen", "name": "Iida-Maria Mäki-Mantila"}
+            ],
+            "clerks": [
+                {"title": "Päätoimittaja", "name": "Iida-Maria Mäki-Mantila"},
+                {"title": "Pehtoori", "name": "Aatto Rautio"},
+                {"title": "Tuotepäällikkö", "name": "Jussi Eväsoja"}
+            ]
+        },
     ]
 
 
