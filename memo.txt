@@ -1,30 +1,6 @@
-Things to be considered
-
-Consistently boring font types
-    - Bold caps headers everywhere?
-
-Order of footer, first header, then addresses, then some links?
-
-Footer icons, more round shape for some icons?
-
-Navbar futile first link?
-
-Blue buttons dont fit to this theme very well, gray buttons? Red? Black?
-
-Rethink old board member naming order etc
-
-Form fields still rethink...
-
-What about gdpr?
-https://tietosuoja.fi/-/tietosuojavaltuutetun-toimisto-julkaisi-tietopaketin-yhdistyksille
-This is quite clear stuff
-
-Name and homeplace are non-optional, everything else must be based to actual usage
-
-compulsary fieds to lomake, ensure those
-
-thank you page must be made to be shown
-
-Hmm, eipä lähtenny formi matkaan, pitääkö olla oikea palvelin eikä vaan local... no joo, blocked tuli postille
-
-Jokin melko simppeli ratkaisu varmaan löytyy tuohon kuvahommaan...
+TODO for 2021
+- Fancier kiitos.html page
+- GDPR required docs (https://tietosuoja.fi/-/tietosuojavaltuutetun-toimisto-julkaisi-tietopaketin-yhdistyksille)
+- Overall visual polishing etc.
+- More content to page (club room, other stories from old page etc)
+- Rethingkin kuvat.fi and old gallery page of this homesite
